@@ -1,0 +1,10 @@
+.user_card {
+    border-bottom: 2px solid #000;
+}
+
+.user_card p{
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-self: flex-start;
+}

@@ -1,0 +1,17 @@
+.user_list {
+    width: 40%;
+    height: 100vh;
+    overflow-y: auto;
+    float: left;
+}
+
+.user_card {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.user_card:hover {
+    background-color: #e0e0e0;
+}

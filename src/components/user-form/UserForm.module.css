@@ -1,0 +1,49 @@
+.user_form {
+    width: 40%;
+    overflow-y: auto;
+    float: right;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+   border: 2px solid #000000;
+
+}
+
+.user_form input {
+    /* display: block; */
+    /* width: 100%; */
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.user_form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user_form button:hover {
+    background-color: #0056b3;
+}
+
+input:last-child{
+    margin-bottom: 5px;
+}
+
+.user_form_block {
+    display: flex;
+    flex-direction:row;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.user_form_block p {
+    margin-top: 0;
+    margin-right: 30px;
+}
