@@ -12,7 +12,7 @@ type UserFormProps = {
 const UserForm = ({ user }: UserFormProps) => {
   const [formData, setFormData] = useState(user);
   const dispatch: AppDispatch = useDispatch();
-  const [errors, setErrors] = useState<{ [key: string]: string }>({});
+  const [, setErrors] = useState<{ [key: string]: string }>({});
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
